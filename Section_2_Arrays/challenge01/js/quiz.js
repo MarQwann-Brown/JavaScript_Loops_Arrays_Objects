@@ -12,10 +12,10 @@ var userAnswer = [];
 function print(message) {
     document.write(message);
 }
+print(userAnswer);
 
-for (i = 0; i < qa.length; i+=1){
-    prompt(qa[i][0]);
-    print(qa[i]);
+for (i = 0 ; i <3; i+=1){
+    userAnswer.push(prompt(qa[i][0]));
+    print(userAnswer);
 
 }
-
